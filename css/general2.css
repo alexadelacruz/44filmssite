@@ -1,0 +1,166 @@
+body{
+	background-color:#ffffff;
+}
+
+/* top navbar background */
+.navbar{
+	background-color:#000E54 !important;
+}
+
+/* navbar links */
+.navbar-dark .navbar-nav .nav-link{
+	color:#ffffff;
+	/* you need to style these up using the right font settings */
+}
+
+/* navbar link hover */
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#F76900;
+}
+
+/* hamburger */
+.navbar-toggler{
+    background-color:none;
+    border-color:rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+/* offcanvas navbar */
+.offcanvas{
+	background-color:#000E54 !important;
+}
+
+/* close button */
+.btn-close-white-bg{
+	background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+	opacity:1;
+}
+
+.btn-close-white-bg:hover{
+	background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F76900'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+	opacity:1;
+}
+
+
+
+
+.ottosorigins {
+	font-family: 'Rajdhani', sans-serif;
+	color:#000E54;
+	font-weight: 700;
+	text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.time {
+	color: #F76900;
+		font-family: 'Rajdhani', sans-serif;
+		font-size: 16px;
+		text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
+
+}
+
+.uploaded {
+	color: #F76900;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.firstparagraph {
+		font-family: 'Montserrat', sans-serif;
+}
+
+
+.awards {
+	background-color: #000E54;
+	color: #ffffff;
+}
+
+.award {
+font-family: 'Rajdhani', sans-serif;
+font-weight: 600;
+font-size: 36px;
+}
+
+.awardsparagraph {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.production {
+	color:#F76900;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 700;
+	font-size: 46px !important;
+}
+
+.productionp {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.name {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+}
+
+.role {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+.major {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.more {
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+	margin-left: 5em;
+}
+
+@media (max-width: 767px) {
+
+	.more {
+margin-left: 0px;
+	}
+
+}
+
+.card-title, .card-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title {
+	font-weight: 700;
+}
+
+.btn-primary {
+	background-color: #F76900;
+	font-family: 'Montserrat', sans-serif;
+	border-color: #F76900;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+footer {
+	background-color: #000E54;
+}
+
+.footer-link {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.copyright {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+}
+

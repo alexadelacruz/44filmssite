@@ -1,0 +1,237 @@
+body{
+	background-color:#ffffff;
+}
+
+/* top navbar background */
+.navbar{
+	background-color:#000E54 !important;
+}
+
+/* navbar links */
+.navbar-dark .navbar-nav .nav-link{
+	color:#ffffff;
+	/* you need to style these up using the right font settings */
+}
+
+/* navbar link hover */
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#F76900;
+}
+
+h1 {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 54px !important;
+}
+
+
+/* hamburger */
+.navbar-toggler{
+    background-color:none;
+    border-color:rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+/* offcanvas navbar */
+.offcanvas{
+	background-color:#000E54 !important;
+}
+
+/* close button */
+.btn-close-white-bg{
+	background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+	opacity:1;
+}
+
+.btn-close-white-bg:hover{
+	background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F76900'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+	opacity:1;
+}
+
+
+@media (max-width: 767px) {
+
+.jumbotron {
+		background-image: url('../images/ottoorigin.jpg');
+		background-repeat: no-repeat;
+		background-position: 0px -10px !important;
+	}
+
+.jumboheading,
+	.jumboparagraph,
+	.btn-primary {
+		margin-left: 45px !important;
+	}
+	.jumboparagraph {
+		margin-right: 1em !important;
+	}
+		.aboutusparagraph {
+			padding-right: 5px !important;
+			padding-left: 5px !important;
+			margin-right: 5px !important;
+			margin-left: 5px !important;
+		}
+
+.button {
+	margin-right: 3em;
+}
+.one {
+	margin-right: 24px !important;
+}
+.two {
+	margin-left: 24px !important;
+}
+.button {
+	margin-bottom: 1em;
+}
+}
+
+.aboutus {
+	padding-bottom: 0;
+}
+.jumbotron {
+	background-image: url('../images/ottoorigin.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+	background-position: 0px -175px;
+	
+}
+
+.jumboheading,
+.jumboparagraph,
+.btn-primary {
+	color: #ffffff;
+	margin-left: 90px;
+	}
+
+.jumboheading {
+	margin-top: 200px;
+	font-size: 64px;
+	line-height: 77px;
+	letter-spacing: -1.5%;
+	text-shadow: 2px 4px 4px #000000 !important;
+	}
+
+.jumboparagraph {
+	font-size: 16px;
+	margin-right: 50em;
+	text-shadow: 1.5px 1.5px #000000;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn-primary {
+	background-color: #F76900;
+	border-color: #F76900;
+	text-shadow: 1px 1px #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 19px;
+	border-width: 10px;
+}
+
+.form-control {
+	border-radius: 0;
+	font-family: 'Montserrat', sans-serif;
+	border-color: #000E54;
+}
+
+.ottosorigins {
+	font-family: 'Rajdhani', sans-serif;
+	text-align: start;
+	font-size: 32px !important;
+	font-weight: 600 !important;
+
+}
+
+.ottosparagraph {
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: start;
+}
+
+.aboutus {
+	background-color: #000E54;
+}
+
+.about, .aboutusparagraph {
+	color: #ffffff;
+}
+
+.aboutusparagraph {
+	font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		text-align: start;
+}
+
+.featured {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.joinparagraph {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	text-align: start;
+}
+
+.signup {
+	text-decoration: none !important;
+	font-size: 40px !important; 
+}
+
+h3 {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 42px !important;
+	color: #ffffff;
+}
+
+h4 {
+	font-family: 'Rajdhani', sans-serif;
+	color: #000E54;
+	font-size: 34px;
+}
+
+footer {
+	background-color: #000E54;
+	color: #ffffff;
+}
+
+.footer-link {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.copyright {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.email {
+	background-color: #F76900;
+}
+
+.form-group {
+	border-color: #000E54;
+	border-width: 1px;
+}
+
+.team {
+	color: #000E54;
+}
+
+@media (max-width: 767px) {
+	.first {
+	padding-right: 50px !important;
+	padding-left: 50px !important;
+	}
+}
