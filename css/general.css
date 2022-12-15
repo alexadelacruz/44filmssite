@@ -57,6 +57,7 @@ h1 {
 		background-image: url('../images/ottoorigin.jpg');
 		background-repeat: no-repeat;
 		background-position: 25% -10px !important;
+	padding-top: 150px !important;
 	}
 
 .jumboheading,
