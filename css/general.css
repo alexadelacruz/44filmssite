@@ -110,14 +110,14 @@ h1 {
 
 .jumboheading {
 	margin-top: 200px;
-	font-size: 64px;
+	font-size: 60px;
 	line-height: 77px;
 	letter-spacing: -1.5%;
 	text-shadow: 2px 4px 4px #000000 !important;
 	}
 
 .jumboparagraph {
-	font-size: 18px;
+	font-size: 16px;
 	margin-right: 50em;
 	text-shadow: 1.5px 1.5px #000000;
 	font-family: 'Montserrat', sans-serif;
