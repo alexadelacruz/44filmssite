@@ -57,7 +57,6 @@ h1 {
 		background-image: url('../images/ottoorigin.jpg');
 		background-repeat: no-repeat;
 		background-position: 25% -10px !important;
-	padding-top: 150px !important;
 	}
 
 .jumboheading,
@@ -92,6 +91,7 @@ h1 {
 .aboutus {
 	padding-bottom: 0;
 }
+
 .jumbotron {
 	background-image: url('../images/ottoorigin.jpg');
 	background-repeat: no-repeat;
@@ -110,14 +110,14 @@ h1 {
 
 .jumboheading {
 	margin-top: 200px;
-	font-size: 4.5em !important;
+	font-size: 64px;
 	line-height: 77px;
 	letter-spacing: -1.5%;
 	text-shadow: 2px 4px 4px #000000 !important;
 	}
 
 .jumboparagraph {
-	font-size: 1.2em !important;
+	font-size: 18px;
 	margin-right: 50em;
 	text-shadow: 1.5px 1.5px #000000;
 	font-family: 'Montserrat', sans-serif;
